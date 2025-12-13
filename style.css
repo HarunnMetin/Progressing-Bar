@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #fd7979;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill {
+  width: 160px;
+  height: 160px;
+  /*background: #fdacac;*/
+  position: relative;
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 18px;
+    box-shadow: 6px 6px 10px 10px  #9c5656,
+                -6px -6px 10px -10px #fd7979;
+
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
