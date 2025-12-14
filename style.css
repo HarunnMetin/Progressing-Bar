@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #fd7979;
+  background: #fff;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -23,13 +23,29 @@ body {
     width: 160px;
     border-radius: 50%;
     padding: 18px;
-    box-shadow: 6px 6px 10px 10px  #9c5656,
-                -6px -6px 10px -10px #fd7979;
+    box-shadow: 6px 6px 10px 10px rgba(0,0,0,0.16),
+                -6px -6px 10px -10px  rgba(255,255,255,0.7);
 
 }
 .inner{
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+     inset 4px 4px 6px -1px rgba(255,255,255,0.7),
+     -0.5px -0.5px 0px rgba(255,255,255,1),
+     0.5px 0.5px 0px rgba(0,0,0,0.15),
+     0px 12px 10px -10px rgba(0,0,0,0.5);
+}
+#number{
+  font-weight: 600px;
+  color:black
+}
+circle{
+  fill:none;
+  stroke: cornflowerblue;
+  stroke-width: 20px;
 }
